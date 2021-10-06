@@ -1,0 +1,356 @@
+
+html { scroll-behavior: smooth;}
+body{
+  padding: 0;
+  margin: 0;
+  font-family: 'Oswald', sans-serif;
+  font-weight: medium;
+  color: white;
+  font-size: 22px;
+  background:linear-gradient(180deg, #99A2F3 0%, #C1AAE3 100%);
+}
+.menu{
+    margin-left: auto;
+    margin-bottom: auto;
+}
+.photo{ 
+    float: right;
+  width: 400px; 
+height: 400px;
+margin-top: 50px  ;
+  margin-right: 150px;
+  text-align: center;
+  }
+
+* {
+  box-sizing: border-box;
+}
+.hello{
+  margin-top: 100px;
+}
+
+h2 {
+  margin-left: 30px;
+}
+h4{
+  font-size: 150%;
+  color: #8D96EB;
+  text-shadow: 
+  -0   -2px 0   #FFFFFF,
+     0   -2px 0   #FFFFFF,
+    -0    2px 0   #FFFFFF,
+     0    2px 0   #FFFFFF,
+    -2px -0   0   #FFFFFF,
+     2px -0   0   #FFFFFF,
+    -2px  0   0   #FFFFFF,
+     2px  0   0   #FFFFFF,
+    -1px -2px 0   #FFFFFF,
+     1px -2px 0   #FFFFFF,
+    -1px  2px 0   #FFFFFF,
+     1px  2px 0   #FFFFFF,
+    -2px -1px 0   #FFFFFF,
+     2px -1px 0   #FFFFFF,
+    -2px  1px 0   #FFFFFF,
+     2px  1px 0   #FFFFFF,
+    -2px -2px 0   #FFFFFF,
+     2px -2px 0   #FFFFFF,
+    -2px  2px 0   #FFFFFF,
+     2px  2px 0   #FFFFFF,
+    -2px -2px 0   #FFFFFF,
+     2px -2px 0   #FFFFFF,
+    -2px  2px 0   #FFFFFF,
+     2px  2px 0   #FFFFFF;
+
+}
+
+p {
+  margin: 0;
+}
+
+ul, li {
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto; 
+}
+
+.header {
+  padding-top: 5px;
+  padding-bottom: 5px
+  justify-content: space-between;
+  display: flex;
+}
+.about{
+  margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+.btn {
+  background: #8D96EB;
+  color: white;
+  margin-top: 10px;
+  display: inline-block;
+  font-size: 22px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  padding: 17px 47px;
+  border: 1px solid #fff;
+  width: 238px;
+  transition: all 0.5s ease;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  border-radius: 20px;
+}
+
+.links{
+  padding-left: 140px;
+  padding-right: 140px;
+  margin-top: 40px;
+display: flex;
+  justify-content: space-around;
+}
+.btn:hover {
+  background: #fff;
+    color: #8D96EB;
+}
+.btnn:hover {
+    color: #8D96EB;
+}
+
+.links img {
+  transition: all 0.5s ease;
+}
+
+.links img:hover {
+  transform: scale(1.2);
+}
+.me{
+  text-align: center;
+  text-decoration:underline;
+}
+.aboutme{
+  margin-top: 200px;
+  line-height: 40px;
+  display: flex;
+  justify-content: space-between; 
+}
+.myworks{
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between; 
+}
+.works{ 
+margin-top: 50px;
+text-align: center;
+display: flex; 
+justify-content: space-between; 
+}
+
+.work{
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+
+}
+
+.footer{
+    margin-top: 200px;
+    margin-bottom: 50px;
+    display: flex; 
+    justify-content: space-between; 
+}
+.contacts{
+margin-top: 50px;
+text-align: center;
+display: flex; 
+justify-content: space-between; 
+margin-bottom: 20px;
+
+
+}
+.contact{
+  width: 200px;
+  height: 200px;
+}
+.photo2{
+  margin-top: 50px;
+  width: 300px; 
+height: 300px;
+margin: auto;
+margin-bottom: 20px;
+display: flex;  }
+
+
+@media screen and (max-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .container {
+    width: 960px;
+  }
+  .photo{ 
+  width: 350px; 
+  height: 350px;
+  }
+  .btn {
+  font-size: 16px;
+  width: 200px;
+}
+  .work{
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+}
+.contact{
+  width: 160px;
+  height: 160px;
+}
+} 
+
+@media screen and (max-width: 991px) {
+  .container {
+    width: 720px;
+  } 
+
+  .photo{ 
+  width: 270px; 
+  height: 270px;
+  margin-right: 60px;
+  }
+  .photo2{
+     width: 270px; 
+  height: 270px;
+  }
+  .hello{
+      margin-top: 90px;
+      margin-left: 20px;
+  }
+  h1,h2,h3{
+    font-size: 90%;
+  }
+  h4{
+    font-size: 95%;
+  }
+  .logo{
+    width: 150px;
+  }
+  .menu{
+    transform: scale(0.7);
+  }
+  .btn {
+  font-size: 12px;
+  width: 170px;
+}
+.btnn{
+transform: scale(0.8);}
+.contact{
+  width: 110px;
+  height: 110px;
+}
+figcaption{
+  font-size: 16px;
+}
+
+
+.work{
+  width: 160px;
+  height: 160px;
+}
+
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    width: 540px;
+  }
+  h1,h2,h3{
+    font-size: 80%;
+    text-align: center;
+  }
+  h2 {
+  margin-left: 0px;
+}
+  .hello{
+    margin-top: 15px;
+    justify-content: center;
+  }
+  .photo{ 
+  width: 220px; 
+  height: 220px;
+  margin-right: 0px;
+  float: none;
+  margin: auto;
+  display: flex;
+  }
+  .photo2{
+     width: 220px; 
+  height: 220px;
+  }
+  .about{
+    margin-top: 10px;
+    flex-direction: column;
+    margin: auto;
+  display: flex;
+  }
+  p{
+    font-size: 16px;
+  }
+  .aboutme{
+    margin-top: 20px;
+  }
+  .works{
+        flex-direction: column;
+  }
+  .myworks{
+    margin-top: 20px;
+  }
+  .contacts{
+            flex-direction: column;
+  }
+  .footer{
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .container {
+    width: 100%;
+    padding: 0 15px;
+  }
+  .links{
+    flex-wrap: wrap;
+  }
+  .btn{
+display: flex;  
+justify-content: center;
+width: 100%;
+}
+.photo{ 
+  margin-top: 20px;
+  width: 150px; 
+  height: 150px;  }
+  .photo2{
+     width: 150px; 
+  height: 150px;
+  }
+  .logo{
+    width: 100px;
+  }
+  .menu{
+    transform: scale(0.6);
+  }
+}
